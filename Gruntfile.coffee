@@ -22,7 +22,7 @@ module.exports = (grunt)->
   grunt.config.init
 
     # Directory CONSTANTS (see what I did there?)
-    BUILD_DIR:      'build/'
+    BUILD_DIR:      'public/'
     CLIENT_DIR:     'client/'
     COMPONENTS_DIR: 'components/'
     SERVER_DIR:     'server/'
