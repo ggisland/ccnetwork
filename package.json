@@ -1,11 +1,11 @@
 {
-  "title": "BRANDiD's Parse x AngularJS Boilerplate",
-  "name": "parse-angular-demo",
-  "description": "An opinionated, battle-tested boilerplate for building large, powerful, serverless apps with AngularJS, Backbone and Parse. Based on genesis-skeleton by Eric Clemmons",
+  "title": "Clash of Clans Social Network by GG Island, LLC",
+  "name": "ccnetwork-ggisland",
+  "description": "Clash of Clans Social Network by GG Island, LLC",
   "version": "1.0.0",
-  "author": "BRANDiD help@getbrandid.com",
-  "homepage": "http://brandid.github.io/parse-angular-demo",
-  "bugs": "https://github.com/brandid/parse-angular-demo/issues",
+  "author": "adam@ggisland.com",
+  "homepage": "https://github.com/ggisland/ccnetwork",
+  "bugs": "https://github.com/ggisland/ccnetwork.git/issues",
   "licenses": [
     {
       "type": "MIT",

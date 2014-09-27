@@ -1,5 +1,6 @@
 // we isolate our data module so we can reuse them independently
-angular.module('brandid.models.Monsters', ['parse-angular.enhance'])
+// we isolate our data module so we can reuse them independently
+angular.module('ggisland.ccnetwork.models.Monsters', ['parse-angular.enhance'])
 .run(function() {
 
 	// --------------------------

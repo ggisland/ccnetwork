@@ -1,4 +1,4 @@
-angular.module('brandid.states.demo')
+angular.module('ggisland.ccnetwork.states.demo')
 
 .controller('MasterDetailController', ['$rootScope', '$location', '$scope', '$state', 'monsters', function($rootScope, $location, $scope, $state, monsters) {
     
@@ -50,16 +50,6 @@ angular.module('brandid.states.demo')
         icon: "icon-code",
         path: "#/features/data"
       },
-      // {
-      //   title: "Angular Wrapper for Parse SDK",
-      //   icon: "icon-cloud",
-      //   path: "#/features/parse"
-      // },
-      // {
-      //   title: "Angular Wrapper for Parse Cloud Code",
-      //   icon: "icon-cloud",
-      //   path: "#/features/cloud-code"
-      // },
       {
         title: "Angular Wrapper for Facebook SDK",
         icon: "icon-facebook-sign",

@@ -1,4 +1,4 @@
-angular.module('brandid.states.features', ['brandid.states.demo', 'ParseServices'])
+angular.module('ggisland.ccnetwork.states.features', ['ggisland.ccnetwork.states.demo', 'ParseServices'])
 
 .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
 

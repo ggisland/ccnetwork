@@ -5,15 +5,15 @@ angular.module('app', [
 	'parse-angular.enhance',
 
 	/* models */
-	'brandid.models.Monsters',
+	'ggisland.ccnetwork.models.Monsters',
 
 	/* states */ 
-	'brandid.states.features', 
-	'brandid.states.facebook', 
-	'brandid.states.demo' , 
-	'brandid.states.about', 
+	'ggisland.ccnetwork.states.features', 
+	'ggisland.ccnetwork.states.facebook', 
+	'ggisland.ccnetwork.states.demo' , 
+	'ggisland.ccnetwork.states.about', 
 	
-	'brandid.directives.forms' /* an example directive */, 	
+	'ggisland.ccnetwork.directives.forms' /* an example directive */, 	
 	
 	'ParseServices' /* this is the Parse SDK */, 
 

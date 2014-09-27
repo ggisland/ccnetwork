@@ -1,4 +1,4 @@
-angular.module('brandid.states.facebook', ['ParseServices'])
+angular.module('ggisland.ccnetwork.states.facebook', ['ParseServices'])
 
 .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
 

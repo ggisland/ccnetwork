@@ -5,12 +5,12 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>Parse x AngularJS Boilerplate Demo</title>
+    <title>Clash of Clans Network by GG Island, LLC</title>
 
     <meta http-equiv="X-UA-Compatible"  content="IE=edge,chrome=1">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0">
-    <meta name="description"            content="AngularJS Parse Boilerplate">
-    <meta name="author"                 content="@arush and @spacenick">
+    <meta name="description"            content="Clash of Clans Network by GG Island, LLC">
+    <meta name="author"                 content="@ggislandgames">
 
     <!-- build:css app/styles/app.min.css -->
     <link rel="stylesheet" href="app/styles/app.css">
@@ -21,11 +21,11 @@
     <![endif]-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
     <!-- waiting for ui-router to support angular-1.2, hence some view animations are currently gracefully degrading -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular-animate.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-animate.js"></script>
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7370432/708202/css/fonts.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     
   </head>
   <body>
@@ -46,7 +46,8 @@
     </div>
 
 
-    <script src="//www.parsecdn.com/js/parse-1.2.15.js"></script>
+    <!-- <script src="//www.parsecdn.com/js/parse-1.2.15.js"></script> -->
+    <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
     
     <!-- build:js app/scripts/all.min.js -->
     <script src="components/modernizr/modernizr.js"></script>
@@ -125,25 +126,5 @@
       });
 
     </script>
-    
-    <!-- real-time analytics - remember to remove this for your own site -->
-    <script type="text/javascript">
-      var GoSquared = {};
-      GoSquared.acct = "GSN-123809-O";
-      (function(w){
-        function gs(){
-          w._gstc_lt = +new Date;
-          var d = document, g = d.createElement("script");
-          g.type = "text/javascript";
-          g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
-          var s = d.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(g, s);
-        }
-        w.addEventListener ?
-          w.addEventListener("load", gs, false) :
-          w.attachEvent("onload", gs);
-      })(window);
-    </script>  
-
   </body>
 </html>

@@ -1,4 +1,4 @@
-angular.module('brandid.states.facebook')
+angular.module('ggisland.ccnetwork.states.facebook')
 
 .controller('FacebookExampleController', ['$rootScope', '$scope', '$state', '$stateParams', 'FacebookAngularPatch', function($rootScope, $scope, $state, $stateParams, FacebookAngularPatch) {
   	

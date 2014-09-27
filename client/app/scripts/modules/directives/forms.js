@@ -1,4 +1,4 @@
-angular.module('brandid.directives.forms', [])
+angular.module('ggisland.ccnetwork.directives.forms', [])
 
 .directive('editMonsterForm', ['$location', function($location) {
 
